@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Calculadora de IMC</h1></header><br>
+    <div class="container">
+        <input type="number" placeholder="Quilos" id="peso">
+
+        <input type="number" placeholder="Altura" id="altura">
+
+        <br>
+        
+        <button onclick="limpar()">Limpar</button>
+        <button onclick="calcular()">Calcular</button>
+        <br>
+
+        <input type="text" readonly placeholder="IMC" id="imc">
+    </div>
+    <table border="1">
+       
+        <tr><td>Menor que 18.5</td><td>Classificação</td><td>abaixo do peso</td></tr>
+        <tr><td>Entre 18.5 e 24.9</td><td>Classificação</td><td>peso ideal</td></tr>
+        <tr><td>Entre 25.0 até 29</td><td>Classificação</td><td>levemente acima do peso</td></tr>
+        <tr><td>maior que 30</td><td>Classificação</td><td>muito acima do peso</td></tr>
+       
+    </table>
+    <footer><h4>Maria Eduarda Garibaldi da Cruz<br>
+    2° Ano B<br>
+Escola S Florianópolis</h4></footer>
+<script src="calcula.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(197, 245, 179);
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 10px;
+    font-size: medium;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(206, 182, 229);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 40px;
+    margin:40px;
+    padding: 40px;
+  
+    
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(199, 239, 192);
+    padding: 10px;
+    margin: 30px;
+}
+button:hover {
+    background-color:rgb(206, 182, 229);;
+    
+}
+input{
+ background-color:  rgb(232, 228, 237);
+ border-radius: 10px;
+ padding: 10px;
+ margin: 20px;
+ 
+}
+input:hover{
+    background-color:rgb(199, 239, 192); ;
+}
+table{
+   
+    margin:auto;
+    font-size: medium;
+   padding: 10px;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+   
+   
+
+}
+
+.container{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
